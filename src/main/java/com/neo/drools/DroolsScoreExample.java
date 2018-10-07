@@ -30,7 +30,7 @@ public class DroolsScoreExample {
 
         // From the kie services, a container is created from the classpath
         KieContainer kc = ks.getKieClasspathContainer();
-
+        System.out.println("Added line");
         execute( kc );
     }
 
