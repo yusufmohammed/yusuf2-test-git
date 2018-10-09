@@ -9,6 +9,7 @@ public class Employee implements java.io.Serializable {
     static final long serialVersionUID = 1L;
 
     public Employee() {
+        System.out.println("Employee Object Created");
     }
 
 
