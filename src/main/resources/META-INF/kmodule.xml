@@ -1,8 +1,0 @@
-<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="HelloWorldKB" default="false" eventProcessingMode="stream" equalsBehavior="identity" packages="rules">
-    <ksession name="HelloWorldKS" type="stateful" default="false" clockType="realtime"/>
-  </kbase>
-  <kbase name="point-rulesKB" default="false" eventProcessingMode="stream" equalsBehavior="identity" packages="rules">
-    <ksession name="point-rulesKS" type="stateful" default="false" clockType="realtime"/>
-  </kbase>
-</kmodule>
