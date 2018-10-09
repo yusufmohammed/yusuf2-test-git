@@ -32,6 +32,7 @@ public class DroolsScoreExample {
         KieContainer kc = ks.getKieClasspathContainer();
         System.out.println("Added line 2");
         System.out.println("Added line 2");
+        System.out.println("Added line 2");
         execute( kc );
     }
 
